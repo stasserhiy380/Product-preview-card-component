@@ -86,8 +86,8 @@ h1{
 
 
 .add-button{
-
-    display:block;
+    border:none;
+    display: border-left:;ock;
     padding-top:17px;
     padding-bottom:17px;
     text-align: center;
