@@ -1,0 +1,140 @@
+body{
+    background-color: #F2EAE2;
+}
+
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.perfume{
+    color:#6C7289;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 14.4px */
+    letter-spacing: 5px;
+}
+
+
+h1{
+    margin-left:-2px;
+    color: #1C232B;
+    /* text-preset-1 */
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 32px */
+}
+
+.main-content{
+    padding: 32px;
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+    align-items: flex-start;
+}
+
+.description{
+    color: #6C7289;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 22.4px */
+}
+
+.price{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:16px;
+}
+
+.price span{
+    display:block;
+}
+
+
+.current{
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 32px */
+    color:#3D8168;
+}
+
+.previous{
+    color:#6C7289;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 15.6px */
+    text-decoration-line: line-through;
+}
+
+
+.add-button{
+    display:block;
+    padding-top:17px;
+    padding-bottom:17px;
+
+    background-color: #3D8168;
+    border-radius: 8px;
+    width:100%;
+}
+
+.add-button span{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 15.4px */
+}
+
+img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background:url("images/image-product-mobile.jpg");
+    background-repeat: no-repeat;
+}
+
+
+@media (min-width: 600px){
+    main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        width: 600px;
+        margin-top: 0;
+    }
+
+    .image-wrapper{
+        width: 50%;
+        flex-shrink: 0;
+    }
+
+    .image-wrapper img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main-content{
+        width: 50%;
+    }
+}
