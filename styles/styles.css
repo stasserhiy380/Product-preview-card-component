@@ -89,10 +89,15 @@ h1{
     display:block;
     padding-top:17px;
     padding-bottom:17px;
-
+    text-align: center;
     background-color: #3D8168;
     border-radius: 8px;
     width:100%;
+}
+
+
+.add-button:hover{
+    cursor: pointer;
 }
 
 .add-button span{
@@ -123,6 +128,10 @@ img{
         margin-top: 0;
     }
 
+    img{
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
     .image-wrapper{
         width: 50%;
         flex-shrink: 0;
