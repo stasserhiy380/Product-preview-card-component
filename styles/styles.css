@@ -86,6 +86,7 @@ h1{
 
 
 .add-button{
+
     display:block;
     padding-top:17px;
     padding-bottom:17px;
@@ -97,7 +98,7 @@ h1{
 
 
 .add-button:hover{
-    cursor: pointer;
+
 }
 
 .add-button span{
@@ -116,6 +117,9 @@ img{
     background-repeat: no-repeat;
 }
 
+.add-button:hover{
+    cursor:pointer;
+}
 
 @media (min-width: 600px){
     main{
@@ -128,10 +132,6 @@ img{
         margin-top: 0;
     }
 
-    img{
-        border-top-right-radius: 0px;
-        border-top-left-radius: 0px;
-    }
     .image-wrapper{
         width: 50%;
         flex-shrink: 0;
